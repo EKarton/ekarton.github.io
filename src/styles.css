@@ -26,7 +26,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: url("assets/images/background-3.jpg");
+  background: url("assets/images/optimized/background-3.webp");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -51,7 +51,7 @@
   box-shadow: inset 0 0 0 1px orange;
   border-radius: 25px;
   bottom: 10%;
-  background-color: transparent;
+  background-color: orange;
   border: none;
   position: absolute;
   left: 50%;
@@ -63,7 +63,7 @@
   content: '';
   width: 6px;
   height: 6px;
-  background: orange;
+  background: white;
   margin-left: -3px;
   top: 0px;
   border-radius: 4px;
@@ -76,7 +76,7 @@
 }
 
 .scroll-icon:hover {
-  background-color: rgba(115, 113, 113, 0.65);
+  background-color: #ffb84d;
   -webkit-transition: all 200ms ease-in;
   -webkit-transform: scale(1.1);
   -ms-transition: all 200ms ease-in;
